@@ -1,0 +1,104 @@
+/*Het Homepagina hier wordt de kleur, lettertype en de grotte van foto's ingesteld ook zijn ze op een correcte plaats gezet*/
+#Project
+{background-color: black;}
+li {
+   display: inline-block;
+}
+
+.TESF{
+   width: 300px;
+   height: 300px;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;}
+   #Kopen
+   {
+      text-align: center;
+   }
+   .Logo {
+      width: 350px;
+      height: 150px;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      }
+.img
+{
+width: 275px;
+height: 275px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.link-nieuws
+{
+   text-decoration: none;
+}
+
+
+/*Sectie van het onderdeel 'Over' */ 
+/*Hier wordt de achtergrondkleur ingesteld, evenals de kleur van de tekst*/
+#Over{background-color: #171819;}
+#OverBody{background-color: #171819;}
+#OverBand
+{
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: brown;
+}
+/* De lijn wat groter maken */
+hr{
+   height: 3px;
+   background-color: red;
+   border: none;
+}
+/*Het instellen van de achtergrondkleur, de kleur van de tekst en de afbeeldingen ook de grotte van die afbeeldingen veranderen*/
+#Leden
+{background-color: #171819;}
+#Ldn{
+   font-size: small;
+   text-align: center;
+}
+
+#Leden-St
+{
+   font-size: medium;
+   text-align: center;
+   color: red;}
+
+p{color: brown;}
+.ledenSlip
+{
+   margin-left: auto;
+   margin-right: auto;
+}
+/* De grotte van de afbeeldingen instellen en ze in het midden zitten */
+td img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   height: 100px;
+
+}
+/*De grotte en kleur van de copyright instellen */
+   #Copyright {
+      display: none;
+      border: 1px solid #000;
+      height: 30px;
+      width: 290px;
+      margin-left: 10px;
+      font-size: x-small;
+   text-align: center;
+   color: rgb(250, 91, 91);}
+
+  /* Als de gebruiker de muiswijzer over een photo hebt dan wordt de copyright getonen */  
+    a:hover+#Copyright {
+      display: block;
+    }
+/* De grootte van de terug-knop wijzigen */
+#Terug{
+  width: 800px;
+}
